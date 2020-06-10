@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hello Hydeout
+mathjax: true
 excerpt_separator:  <!--more-->
 ---
 
@@ -16,6 +17,11 @@ variables).
 
 Hydeout makes heavy use of Flexbox in its CSS. If Flexbox is not available,
 the CSS degrades into a single column layout.
+
+### Trying out MathJax:
+
+$$\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6} = \frac{g}{6}$$
+$$i\hbar\Psi = \mathbf{H}\Psi$$
 
 ### Customization
 
