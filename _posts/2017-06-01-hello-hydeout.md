@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hello Hydeout
-mathjax: true
+use_math: true
 excerpt_separator:  <!--more-->
 ---
 
@@ -20,8 +20,9 @@ the CSS degrades into a single column layout.
 
 ### Trying out MathJax:
 
-$$\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6} = \frac{g}{6}$$
-$$i\hbar\Psi = \mathbf{H}\Psi$$
+$$
+K(a,b) = \int \mathcal{D}x(t) \exp(2\pi i S[x]/\hbar)
+$$
 
 ### Customization
 
