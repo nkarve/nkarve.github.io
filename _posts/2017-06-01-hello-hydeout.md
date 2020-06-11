@@ -20,8 +20,8 @@ the CSS degrades into a single column layout.
 ### Trying out MathJax:
 
 $$
-K(a,b) = \int \mathcal{D}x(t) \exp(2\pi i S[x]/\hbar)
-i\hbar\Psi = \mathbf{H}\Psi
+K(a,b) = \int \mathcal{D}x(t) \exp(2\pi i S[x]/\hbar) \\
+i\hbar \frac{\partial\Psi}{\partial t} = \mathbf{H}\Psi
 $$
 
 ### Customization
