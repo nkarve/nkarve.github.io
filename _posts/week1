@@ -1,0 +1,119 @@
+---
+layout: post
+title: The Good Stuff - 10th August '20
+excerpt_separator:  <!--more-->
+---
+
+Here's where I'll be noting fun reads, interesting finds, cross-topic connections, useful sources and unresolved questions that I've had over the week. This weekly recap is in part inspired by the illustrious John Baez and his weekly [finds in mathematical physics](http://math.ucr.edu/home/baez/TWF.html). This is the first post of a *long* series, so I wouldn't be too surprised if I bring in some major overhauls.
+
+I've decided to split it up by category, so you'll have some long categories like Physics, supplemented by bite-sized ones like Linear Algebra. Have fun!
+
+---
+## Chemistry: 
+I decided to make this section after remembering how fun computational quantum chemistry is.
+
+- Back to Molecular orbitals! -> bonding and antibonding (add/subtract the wavefunctions, not their squares), orbital diagrams and dienes. 
+- I read an awesome explanation of why triplets have lower energy to singlets (and I JUST found out that electrons in different shells need to be antisymmetrised - and that spin and spatial states need to be symmetrised oppositely). 
+- Interesting perspective on the 'violation' of the Aufbau principle while losing electrons: the same thing isn't happening to protons, unlike while moving across the periodic table 
+- I like to imagine the inert pair effect as a ripple of relativistic contractions of s-orbitals. 
+-  Orbitals don't exist because a linear combination of them preserves the Slater determinant (I have unsettling feeling which means that I haven't fully understood something regarding the superposition states of the electron - this is a byproduct of the hideous terminology, 'this electron is in so-and-so orbital' - how does this relate to delocalisation?). 
+- I found out that (anti)bonding isn't caused by (de/)constructive interference: it's due the presence of two split energy levels for the total Hamiltonian, with associated wavefunctions $c(\psi_1\pm\psi_2)$. 
+- Orbital hybridisation is just a fancy name for LCAO of $s$ and $p$ - with suitable squared coefficient ratios. It's honestly a shame that many phenomenological chemistry explanations involve a degree of hand-waving rather than going the quantum route.
+- I like the 'cone' visualisation for $\mathbf{J = L + S}$ -- its better than the vectors in Griffith's QM since it shows they're 'smeared out' too.
+-  I've been scrambling for a good PDF on the Hartree-Fock SCF method (I revisited some old slides I found months ago - actually pretty good, describing the spin states well) - I came back to the excellent compphys.go.ro and practical-oriented NZNano, and even my old hydrogen basis-set generator which works amazingly well for a 10 minute  SciPy optimisation job.
+- Finally, I found a set of lecture notes in Computational Quantum Chemistry from Finland. They look nice and detailed, and actually care to delve into the computational side of things right from the start (unlike a very famous book whose name I will withhold). I also chanced upon another PDF, which will complement the former, since it goes in detail to numerical problem solving (something which I have little experience in)
+---
+## Machine Learning
+- I did *try* and find out a bit about neural ODEs, but the popular literature seems to be a bit abstruse. 
+- Google's AI blog looks promising - I found a post on Neural Architecture Search (I happened to be reading that on Li'l Log) as well as Reinforcement Learning 
+- Lagrangian Duality in Convex Optimisation (what's the benefit of the more complex methods over the relatively straightforward Lagrange multipliers?). 
+- Upgrades of ResidualNets (e.g. FractalNet) look pretty interesting, but unfortunately it's not practical for me to undertake anything involving distributed GPUs - that's why I gave up on CNNs (besides, I find things like RL, Transformers and *especially* VAEs far cooler)
+- I was amazed to find an analytical solution to least-squares that doesn't even require calculus! (I've noticed that on Stats SE, the best answers usually aren't the most upvoted ones!) 
+- I'll take a look at some MCTS enhancements (my newfound RL knowledge will come in handy) - beyond transposition tables and primitive PV lines. 
+- I have firmly decided to start with Lilian Weng's evolutionary algorithms (equipped with a pen and paper of course!). 
+---
+## Computer Science and App Dev
+- I *have to* write a Python script to convert my phone Chrome History JSON to an acceptable format for History Trends Unlimited - its so annoying how Chrome only stores history for three months - I loved seeing all the Wiki page links purple :( 
+- I should also investigate Adobe XD, seems promising for design (completely in character, Adobe only permits *one* free project)
+-  I had 'Adjoint like Haskell currying' (Google Search stores my fleeting epiphanies - in this case, I'd made the painfully obvious realisation that category theory concepts are used in Haskell) - but I was amazed to see some coherent results, talking about adjoint functors in Haskell. Finally, applied category theory! (this is the best excuse to pick up some Haskell). 
+- It makes sense that you can't curry out of order without flip (OCaml has some weird workaround) - so you order the parameters from most likely to be partially applied to least. 
+- Random Forests seem vaguely interesting - maybe Andrew Gibiansky has a classification implementation? 
+- I found out that Greedy algorithms are just locally optimal solutions (Djikstra's too - why does it need a queue?) - Brilliant is an outstanding source on computer science 
+- The opposite of this, so to speak, is dynamic programming (honestly, I just consider it a fancy name for memoisation, but it's also a good exercise in writing out recurrence relations). Working out the dynamic programming solution reminded me of a chess tactic  (not in the usual sense, but you know what I mean) that I use: invert the move order! 
+- A company called 'Cuberto' makes nice app UI (it's not as impratical and showy as some of the other stuff I see on Dribbbbbble) 
+- What's the Material Design widget that looks like circles separated by lines?
+-  I'd like to see some improvements to vanilla Monte Carlo integration (apparently it comes in handy while evaluating the phase space integrals for Feynman diagrams - wait, does that just mean unconstrained momenta?), e.g. how do you avoid large 'dead' zones? I think 'Vegas' does something about this, but it's ancient now, there's got to be a more refined approach
+- My brother gave me a fun project: generate non-looping beats (this stemmed from his annoyance at the repetitive music in 'Color Switch') - I'd prefer a symbolic expression manipulator for Dirac gamma matrices (see FORM).
+---
+## Logic and Set Theory
+- The diagonal lemma was a fun concrete example of applied set theory (although I mainly looked at how textbook proofs using it + Gödel's First Incompleteness Theorem had logical inconsistencies).
+- Aha! So Theseus' ship's cousin is called the Sorites paradox (their relation reminds me of a category functor if you see what I mean)
+---
+## Group Theory, Calculus and Fun Stuff
+- Brian Sittinger's Quora feed is my go-to destination for integrals and other calculus tidbits (applied group theory too). 
+- The uniqueness of a Fourier series was a bit anticlimatic (just the fact that the coefficients are given by a constant integral? - maybe I should check uniqueness of power series' then). Anyway, over the last week I've read most of MMPS (Fourier Series today) - up next, we've got residue theorem examples, conformal mapping (ooh - I'd love to see an E&M solution with that) and other complex analysis, followed possibly by Bessel functions and PDEs.
+- I confirmed a long-standing hunch - that the Hodge star operator is not involutive (with regards to div-curl and curl-grad identities in Michael Penn's video). Strangely, everyone on Maths SE seems to use physics-style language while discussing it. 
+- Pseudovectors and pseudoscalars now make sense, although I'm still hoping to see them in the broader context of Clifford algebras.
+-  I felt like continuing with Galois theory today, so I found a nice, friendly blog post by science4all that cleared up field extensinons and the tower rule with some nice concrete examples. 
+- Wikipedia for maths is, on the whole, one of the best sources you'll find - excellent examples - although I found more concise explanations of normal and separable extensions elsewhere (the 6 cross-ratio group was exotic). 
+- math3ma had a cool analogy between algebraic elements and topological limit points and her suggestion to use category theory really got me thinking
+-  I also read about some small groups on Brilliant (since a nice point is that Galois groups for $1 \le n\le4$ are 'too small' to not be solvable). 
+- A determined search for explanatory Dynkin diagrams questions - mostly for E8 - on Maths SE proved inconclusive (well, it lead me back to the comprehensive E8 wiki page which I surprisingly hadn't visited). In the meanwhile, I'll content myself with excellent PDFs that I've found on roots systems, Lorentz group reps and SUSY.
+-  I rediscovered the n-Category Cafe - a collective blog that includes legends like John Baez, Qioachu Yuan and Emily Riehl, among others.  It has a nice post on G2 and the split octonions (it, at the very least, consolidated my understanding of phase spaces).
+- The E8 sphere packing proof of Viazovska looks really accessible (apparently, the proof is also very elegant and intuitive). {After reading a bit more: it is *amazing* - without doubt the most beautiful proof I have ever seen, and not just the argument, the presentation too, involving the coalescence of two of my favourite topics: Fourier transforms and modular forms)
+- Also, I'm no longer confused about the position of the E8 Dynkin diagram 'leg' (even preparing to ask a question on Maths SE gets your brain working!). 
+- Glasser's Master Theorem - that's what the $f(u)\mathrm dx = f(x)\mathrm dx$ trick was! - a very cool substitution that'll no doubt make $\frac{x^n}{1+x^m}$ integrals easier (although Dr. Sittinger confirmed that there is a beta function approach). 
+- I went back to nrich.maths.org for their Galois theory intro for high school students - nicely written. Simple groups, solvable groups and subnormal series make sense - and I correctly intuited that the Jordan-Holder theorem could be used to prove the Fundamental Theorem of Arithmetic (in fact, that's the one given on AoPS - which I should really revisit :P) 
+- The n-Category Cafe has a promising series on the use of octonions in the Standard Model (watered down, yes, but I've always wanted to see an alternative to SU(3)). 
+- John Baez had a nice post on countable ordinals (I only managed to reach epsilon-nought) 
+- Now that I know a bit more about character tables, I should check out molecular symmetry point groups (this was one my first ever exposures to group theory!), speaking of which, I loved the fact that cyclic groups have a character 'matrix' as a multiple of the DFT matrix! 
+- For some reason, I'm not quite satisfied with the proof that finite fields have to be of prime power order (the routine 'contradicts the minimality' argument). 
+- I want to see an accessible derivation of the analytic continuation of the zeta function (I found a good analogy to the infinite geometric series). 
+- I was super cool that outer automorphisms are the quotient $\text{Aut}/\text{Inn}$ and $\text{Inn}$ as $\text{G}/\text{Z(G)}$. It was here that I discovered that viewing Wikipedia in mobile version on a desktop is more relaxing. 
+- Turns out Lie algebras are a real vector space when their groups are a real manifold. Yep. 
+- PSL(n) is just stereographic projection! And 'Identification' (of opposite points) is ridiculous terminology honestly. Previously I'd said that I couldn't find applications of Nimbers. Now I'm relating them AND surreal numbers to Game Theory. 
+- John Baez's website is the final source on exceptional Lie groups now (and for groups in general), not least because he relates them to Spin(8). 
+- Why do I see the gamma reflection formula popping up everywhere? Since I saw it in the derivation, I think I'll just perform complex Fourier series from now on (why bother with an extra integral?)
+- I don't know why, but the phrase 'generates freely' really touches a nerve matrices.
+- Proofs involving conjugacy classes are reminded me of exponentials of diagonalised 
+---
+## Linear Algebra
+- I was surprised to find that irreducible group representations of the same dimension are isomorphic (in hindsight it's obvious, but $\mathbf3$ and $\mathbf{\overline3}$ irreps for quarks must have confused me) 
+- On the other hand, I felt that it was incredibly obvious that two vector spaces of equal dimension are isomorphic
+- Continuous functions on an interval form a vector space? The proof didn't feel substantial, but I guess that's because of my idea of non-rigorous function arithmetic.
+----
+## Physics
+- IB Chemistry reminded me to take a quick look at *real* orbitals and energy levels - so I dug up some stuff on instability of higher energy levels
+- Helmholtz free energy (HyperPhysics has a good grid diagram - all those "messy" thermodynamics terms just involve $\text{PV}$ and $\text{TU}$), atomic orbitals (molecular orbitals and quantum and computational chemistry as a whole deserves a revisit), electronic configuration and an observable calculation that reminded me to take a look at Griffiths (or even better, Sakurai). 
+- I saw radiation pressure (again, I should re-read Griffith's E&M). I also revisited black bodies and the Stefan Boltzmann law (first time since Feb, I think!). 
+- I was trying to find the Feynman diagrams for the Lamb Shift, but it didn't yield anything except some nice PDFs on (strangely) supersymmetry. The SUSY treatise turned out to be quite accessible; I'd like to read it properly
+-  I wasn't satisfied with some explanations on why spins have to be antiparallel in an orbital, or on the SO(4) symmetry in Hydrogen - and I need to read up on the band structure (semiconductors too). The Laplace-Runge vector was WAY too complicated (and not sufficiently physical); I think I'll come back to it later. Honestly, there's so much to read up on in physics (I need to tone it down a bit - more CS is in order). 
+- Hund's rules seem simple enough. 'Feynman Diagrams for Beginners' looks like a good review of QED concepts and Feynman diagrams - speaking of which, I REALLY want to see a calculation for the lifetime of a particle (should cement theoretical knowledge with a practical example - in fact, I might get back to Schwartz now) 
+-  Now that I've read Chapters 13 and 14 of QFTGA, I finally understood the Dirac equation, chirality (projection operators are a good mnemonic for remembering Binet's formula), helicity, polarization (whose meaning is, in my opinion, hidden behind the opaque Jones vector). I can't stress just how good the book is - and I'm looking forward to attacking fermion-photon coupling (hopefully the path integral is simple enough - sadly this book doesn't detail the derivation of the fermionic Feynman rules). 
+- I know Weinberg's book is highly respected, but I just can't get past the evil 1980's typesetting. Also, I have no idea why Fermi's golden rule looks so weird in Griffith's QM (I didn't find a good account of decay widths either)
+-  I've returned to Peskin and Schroeder, and I am astounded how long it took for me to appreciate it. P&S on the practical front (it is *extremely* practical-oriented), combined with QFTGA for the intuitive side, is a killer combination in QFT. I managed to finish Chapter 4 and a bit of 5 (honestly, Wick contractions probably discouraged me from going further before). I FINALLY used Feynman diagrams in a real computation, and it seems straightforward (although I'm sure loops are going to be a tough cookie)  {Nihar from the future: I've been reading this book for 4 days and it's like I've spent the last 4 months devouring it, it's *that* good. Nihar out)
+- How about a program to i) Draw Feynman diagrams ii) Do Dirac matrix computations and simplifications?
+- I found a couple of papers on Lorentz group representations that are friendly enough. 
+- Revised Hund's Rules -> what is j-j coupling, and how is it different from s-l coupling? I found the term symbol wiki (the term multiplicity also makes sense in reference to triplet and singlet) 
+-  I'm still eager to find out the motivation (in fact, also why it's even allowed at all) behind promoting global to local symmetries (I have a hunch I'll find that in chapter 14 of QFTGA).
+-  For what I hope is the final time, I read about representation theory of the Lorentz group, Casimir elements, Clebsch-Gordan coefficients (not their recursion relations though). I managed to revise Chapters 4 through 7 of Griffiths in under twenty minutes (I have a much greater appreciation for spin). 
+- I **finally** found out what the bold numbers are in representation theory: it's the dimension of the irrep - which got me thinking: spin-2 transforms as a 5 under Lorentz transforms; does this have something to do with SU(5) theory (probably nothing, but it's rare that you see 5's in particle physics). 
+- I actually am very interested in quantum chemistry (maybe I should revisit the ABC of DFT) - it's a shame that even members of the chemistry SE are unable to allude to QM when needed. 
+- Why most metals are silver-gray (their transitions require UV, so is reflective to visible) is the precisely the kind of thing I want to use quantum chemistry for - gold apparently has relativistic considerations (raising the 5d orbital reduces the frequency for absorption from UV to blue for 5d $\rightarrow$ 6s) -- could the 'diffuse' orbital stand for not being contracted relativistically? 
+- Ironically the stop squark is the lightest, so it'd be discovered first (is the mass order inverted for all? How do I derive this?). Now I'm on the lookout for the one-loop corrections to the electron g-factor. 
+- The Lie algebra adjoint representation reminded me of Haskell currying (see below) 
+- It's unfortunate that the pure geometric algebra formulation of electrodynamics isn't as elegant as the differential forms version.
+-  The one-loop correction was right under my nose - it was, incidentally, the next section of P&S that I was going to attack (they introduce Lie groups *so* late, its mind-boggling! 
+- Why don't they just call 'faithful' representations injective? 
+- A book on intensely mathematical QM turned out to be a good refresher on ... er, topological sets, amazingly! (if delirium ever besets me, I'll read the rest of the book)
+- I can see how the terminology 'lower energy' is can be misleading for electron bound states (its greater in magnitude, just negative, so it requires more energy to lift it). 
+- Of course as soon as I read Schwinger's trick did it appear in P&S, along with the one-loop correction to the g-factor (◔_◔). 
+- Funnily enough, Murphy's Law reminded me of Dirac's principle in quantum mechanics. 
+- Searching amputable feynman diagrams brought me to an Imperial PDF that I had viewed two months ago! (that's a whole month before I properly started QFT!). 
+- I found a PDF on John Baez's GUT theories (same content as the UCR website, but in latex, yay!) 
+- I guessed right - multi-power Feynman parameters do involve an inverse generalised beta function. 
+- Interesting how, while constructing a spin basis vector with different $l$, you just make it orthogonal (what if there are more possibilities?). Besides, the $\text{SU}(3)$ construction is far more elegant for constructing the eigenbasis.
+-  Is there a deeper reason why internal lines can be described by virtual particles? (other than that the propagators are equivalent). 
+- I found another one of John's PDFs, this time on the octonions (its the preface to the exceptional groups - I found the relations amazing). It's going to be a very constructive summary of the Cayley-Dickinson construction, Spinors - even Clifford Algebra. So that's where the Fano plane is used!
+- I came across a visual paper on QCD reps which unlike John Baez's GUT paper, starts with $\text{SU}(3)$ right off the bat - but it doesn't compare at all to John's paper, which is far more detailed, far more lucid and focuses on the qualitative, intuitive aspect of charges and particles - since my foundation of exterior algebra, invariants and irreps has been set, I can't wait to explore beyond the SU(5) GUT (I'll first need to check the octonions book though)
+---
