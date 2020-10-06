@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: category
 title: The Good Stuff (21/9/20 - 27/9/20)
 categories: week
 excerpt_separator:  <!--more-->
