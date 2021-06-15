@@ -6,7 +6,7 @@ excerpt_separator:  <!--more-->
 ---
 In the last post, I described bosonic string theory and its limitations. A natural method to augment the theory is to introduce *supersymmetry*, an established idea from quantum mechanics.
 
-### A Foray into Supersymmetry
+## A Foray into Supersymmetry
 
 It is imperative to take a momentary step back and describe supersymmetry in general, unrestricted to the confines of stringy physics. The premise is straightforward: supersymmetry posits the existence of one (or more!) particles corresponding to each existing particle in the model. The kicker is that this partner has the opposite "statistics", meaning that a boson will be paired with a fermionic superpartner and vice versa. For such a radical proposal, it is somewhat puzzling that physicists place a great deal of faith in its existence! 
 
@@ -25,7 +25,7 @@ $$
 
 Incredible though it may seem, this theory is completely conformal, or scale-invariant, meaning that it looks the same zoomed in or out (were you paying attention in the previous blog post?) and as such, it is often used a *toy model*, especially in higher-dimensional physics.
 
-### The Superstring
+## The Superstring
 
 Speaking of higher dimensional physics, this detour has lit the path for resolving the fermion problem in string theory: we ought to pepper in supersymmetry to get a consistent, all-encompassing, finite, quantum-gravitational theory. Since this is easier said than done, revisiting our dear friend the bosonic string offers us a moment of solace. Though I did not mention this very explicitly in the previous post, there are two clearly different types of strings: open strings, with free ends, and closed strings, whose ends are joined to form a loop. Now a theory with open strings is necessarily a theory with closed strings, because an open string can move in a circle to trace out a cylinder. But this is just the worldsheet for a closed string propagating! Bear in mind that the converse does not hold: there is no mechanism for a closed string to snap into an open one, and so there can exist theories of only closed strings.
 
