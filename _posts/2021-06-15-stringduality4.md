@@ -45,7 +45,7 @@ The final manifestation of duality in string theory is once again an S-duality, 
 
 This concludes the beautiful web of dualities that connect and unify all the superstring theories. They are mathematically breathtaking, and will be studied for years to come.
 
-![](Dualities2.jpg?raw=true)
+![](/assets/images/Dualities2.jpg?raw=true)
 
 But I leave you on one note. All 5 string theories are now connected. Can we build one single fundamental, underlying description of all of them together? Would such a theory be consistent? What would it look like? How would it reduce to the existing string theories? Tell us more!
 
