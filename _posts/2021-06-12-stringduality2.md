@@ -4,10 +4,9 @@ title: The Many Faces of String Theory (Part II)
 categories: blog
 excerpt_separator:  <!--more-->
 ---
-
 In the last post, I described bosonic string theory and its limitations. A natural method to augment the theory is to introduce *supersymmetry*, an established idea from quantum mechanics.
 
-### The Superstring
+### A Foray into Supersymmetry
 
 It is imperative to take a momentary step back and describe supersymmetry in general, unrestricted to the confines of stringy physics. The premise is straightforward: supersymmetry posits the existence of one (or more!) particles corresponding to each existing particle in the model. The kicker is that this partner has the opposite "statistics", meaning that a boson will be paired with a fermionic superpartner and vice versa. For such a radical proposal, it is somewhat puzzling that physicists place a great deal of faith in its existence! 
 
@@ -24,7 +23,9 @@ L = \operatorname{tr} \left\{-\frac{1}{2g^2}F_{\mu\nu}F^{\mu\nu}+\frac{\theta_I}
 $$
 </div>
 
-Incredible though it may seem, this theory is completely conformal, or scale invariant, meaning that it looks the same zoomed in or out (were you paying attention in the previous blog post?) and as such, it is often used a *toy model*, especially in higher-dimensional physics.
+Incredible though it may seem, this theory is completely conformal, or scale-invariant, meaning that it looks the same zoomed in or out (were you paying attention in the previous blog post?) and as such, it is often used a *toy model*, especially in higher-dimensional physics.
+
+### The Superstring
 
 Speaking of higher dimensional physics, this detour has lit the path for resolving the fermion problem in string theory: we ought to pepper in supersymmetry to get a consistent, all-encompassing, finite, quantum-gravitational theory. Since this is easier said than done, revisiting our dear friend the bosonic string offers us a moment of solace. Though I did not mention this very explicitly in the previous post, there are two clearly different types of strings: open strings, with free ends, and closed strings, whose ends are joined to form a loop. Now a theory with open strings is necessarily a theory with closed strings, because an open string can move in a circle to trace out a cylinder. But this is just the worldsheet for a closed string propagating! Bear in mind that the converse does not hold: there is no mechanism for a closed string to snap into an open one, and so there can exist theories of only closed strings.
 
@@ -32,10 +33,10 @@ The analysis of the closed string spectrum is roughly equivalent to analysing tw
 
 However we return to the battle, war-hardened and bruised with fermionic deficiency, this time brandishing supersymmetry (perhaps a little too fiercely, could you tone it down a notch?).  And this dictates that we add a *fermionic* coordinate as a superpartner to the bosonic coordinate, for both the left-moving and right-moving modes. We simply analyse each set of modes separately, eventually combine them together and several pages of mathematical toil later, we've *done it*. We've constructed superstring theory (or rather, Green and Schwarz did, 30 years ago). 
 
-Or have we? There are really *two* pictures associated to string theory, one of string floating around, interacting in a high-dimensional spacetime, and one defined by two-dimensional interacting quantum field theories on donut-like surfaces forming the string worldsheet. Ontologically, string theory does not make a distinction between the two. But the supersymmetric supplement that we added above is only for the *worldsheet* theory. The string spectrum is not supersymmetric in *spacetime*. But if we want string theory to be an accurate description of reality, it should have spacetime supersymmetry to reduce to the field theoretic picture described previously! A deeper analysis suggests more gripping problems: there is still a tachyon in the theory, and the presence of a massless gravitino in the theory (the superpartner of the graviton) leads to a breakdown of causality and some sacred mathematical tenets of the theory if spacetime supersymmetry is not present.
+Or have we? There are really *two* pictures associated to string theory, one of string floating around, interacting in a high-dimensional spacetime, and one defined by two-dimensional interacting quantum field theories on donut-like surfaces forming the string worldsheet. Ontologically, string theory does not make a distinction between the two. But the supersymmetric supplement that we added above is only for the *worldsheet* theory. The string spectrum is not supersymmetric in *spacetime*. But if we want string theory to be an accurate description of reality, it should have spacetime supersymmetry to reduce to the field-theoretic picture described previously! A deeper analysis suggests more gripping problems: there is still a tachyon in the theory, and the presence of a massless gravitino in the theory (the superpartner of the graviton) leads to a breakdown of causality and some sacred mathematical tenets of the theory if spacetime supersymmetry is not present.
 
 At this stage it seems string theory is well and truly done for. But the emotional rollercoaster continues. Gliozzi, Scherk and Olive discovered that in order to upgrade this currently non-physical theory to a consistent one, one must truncate the space of states by enacting the *GSO projection*. Amazingly, this solves *every single one* of the problems presented thus far. The tachyon does not survive the projection; it is removed from the theory. The number of degrees of freedom at each mass level match between the bosonic and fermionic sector, the coveted spacetime supersymmetry has been obtained, and causality and "gauge invariance" are restored. Superstring theory has finally come to life.
 
-But wait (oh no...). Recall how the closed string is composed of left-moving *and* right-moving parts? Well, I conveniently forgot to mention that there are two inequivalent choices of GSO projection, and we are free to choose either the same or different ones for each direction. This means we have constructed not one, but *two* superstring theories!
+But wait (oh no...). Recall how the closed string is composed of left-moving *and* right-moving parts? Well, I conveniently forgot to mention that there are [two inequivalent choices of GSO projection](https://physics.stackexchange.com/a/643223/231159), and we are free to choose either the same or different ones for each direction. This means we have constructed not one, but *two* superstring theories! 
 
-But why? What's the difference? Well that is a story for another blog post.
+But why? What's the difference? Well that's a story for another blog post.
