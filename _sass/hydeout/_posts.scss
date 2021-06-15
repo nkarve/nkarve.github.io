@@ -88,6 +88,27 @@ article + *,
   }
 }
 
+// Next page and previous page
+
+.page-navigation {
+  font-size: 14px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.page-navigation a {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0;
+}
+
+.page-navigation .next {
+  text-align: right;
+}
+
+
 button.disqus-load {
   margin-top: 1em;
 }
