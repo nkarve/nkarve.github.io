@@ -91,7 +91,7 @@ article + *,
 // Next page and previous page
 
 .page-navigation {
-  font-size: 14px;
+  font-size: 16px;
   display: block;
   width: auto;
   overflow: hidden;
@@ -102,6 +102,7 @@ article + *,
   width: 50%;
   float: left;
   margin: 1em 0;
+  font-weight: bold;
 }
 
 .page-navigation .next {
