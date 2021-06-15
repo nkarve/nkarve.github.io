@@ -5,7 +5,7 @@ categories: blog
 excerpt_separator:  <!--more-->
 ---
 
-<img src="/assets/images/StringCoverPhoto.jpg" height="300" />
+<img src="/assets/images/StringCoverPhoto.jpg" style="width:100%" />
 
 Everybody has heard of string theory. Depending on your other interests and prior beliefs, you may either see it a mystical, unattainable orb-like existence atop a fortress, the one true, elegant theory of everything, or a colossal drainage on the worlds' intellectual resources.
 
