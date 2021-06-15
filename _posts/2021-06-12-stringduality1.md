@@ -5,7 +5,9 @@ categories: blog
 excerpt_separator:  <!--more-->
 ---
 
-Everybody has heard of string theory. Depending on your other interests and prior beliefs, you may either see it akin to a mystical, unattainable orb-like existence atop a fortress, the one true, elegant theory of everything, or a colossal drainage on the worlds' intellectual resources.
+<img src="/assets/images/StringCoverPhoto.jpg" height="300" />
+
+Everybody has heard of string theory. Depending on your other interests and prior beliefs, you may either see it a mystical, unattainable orb-like existence atop a fortress, the one true, elegant theory of everything, or a colossal drainage on the worlds' intellectual resources.
 
 Regardless of the physical ramifications, it is undeniably a mathematically beautiful construction. In this post, I'll attempt to illustrate, non-technically, some of the aspects and history of string theory. The only thing readers should be aware of prior to embarking on this multi-post adventure is the rough idea of "particles in string theory being vibrations of tiny strings in lots of dimensions".
 
