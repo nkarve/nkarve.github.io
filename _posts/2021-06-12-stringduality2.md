@@ -16,10 +16,13 @@ Here's why - supersymmetry automatically solves many pressing unresolved problem
 Experimental observations have not treated this conjectured symmetry lightly. While the LHC could validate the existence of the Higgs boson, it could not find a trace of superparticles, to much disbelief. Proton decay experiments have been conducted for years with tonnes of heavy water in salt mines, but have yielded negative results. Lest one cast premature aspersions on the theory, let me quickly add that these results present no significant blow to supersymmetry - the supersymmetric scale could simply be higher than the energies probed by the LHC.
 
 Least troubled by the news were the mathematically-inclined theoreticians - SUSY is a prized member of many a toolkit. With seemingly more chaos with the introduction of more particles, it may be surprising that supersymmetric theories are often *simpler* than the base model! This is because SUSY constrains the theory, placing restrictions on its freedom to foster complexity. Take quantum chromodynamics, a consumer of millions of supercomputer hours a year. Rigorous, mathematically sound descriptions of the mass gap, confinement, and strongly coupled behaviour at low energy are thorns in the otherwise beautiful, "non-abelian gauge" theory. If anyone proclaims otherwise, they are kindly advised to claim their \$1 million from the Clay Mathematics Institute. But when supersymmetrised, the resulting SQCD suddenly becomes amenable to mathematical torture and inspection, and what's more, we can probe the strong coupling effects *exactly*! As a crazier example, consider "$\mathcal N=4$ Super Yang Mills" theory - this is the most symmetric theory without gravity in 4 dimensions, with each particle having four superpartners. The Lagrangian is as cool as the name:
+
+<div>
 $$
 L = \operatorname{tr} \left\{-\frac{1}{2g^2}F_{\mu\nu}F^{\mu\nu}+\frac{\theta_I}{8\pi^2}F_{\mu\nu}\bar{F}^{\mu\nu}- i \overline{\lambda}^a\overline{\sigma}^\mu D_\mu \lambda_a -D_\mu X^i D^\mu X^i
 +g C^{ab}_i \lambda_a[X^i,\lambda_b] + g \overline{C}_{iab}\overline{\lambda}^a[X^i,\overline{\lambda}^b]+\frac{g^2}{2}[X^i,X^j]^2 \right\}
 $$
+</div>
 
 Incredible though it may seem, this theory is completely conformal, or scale invariant, meaning that it looks the same zoomed in or out (were you paying attention in the previous blog post?) and as such, it is often used a *toy model*, especially in higher-dimensional physics.
 
