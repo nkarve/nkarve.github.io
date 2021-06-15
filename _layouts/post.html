@@ -13,6 +13,8 @@ layout: default
     {% include post-tags.html post=page %}
   </div>
 
-  {% include comments.html %}
+  {% if site.disqus.shortname %}
+    {% include disqus_comments.html %}
+  {% endif %}
   {% include related_posts.html %}
 </div>
