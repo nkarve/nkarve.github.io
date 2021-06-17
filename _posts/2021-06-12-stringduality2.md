@@ -4,6 +4,9 @@ title: The Many Faces of String Theory (Part II)
 categories: blog
 excerpt_separator:  <!--more-->
 ---
+
+<img src="/assets/images/StringCoverPhoto.jpg" style="width:100%" />
+
 In the last post, I described bosonic string theory and its limitations. A natural method to augment the theory is to introduce *supersymmetry*, an established idea from quantum mechanics.
 
 ## A Foray into Supersymmetry
