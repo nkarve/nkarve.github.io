@@ -15,8 +15,8 @@ layout: page
           {{ post.title }}
           <small>{{ post.date | date_to_string }}</small>
         </a>
-        {{ post.content | strip_html | truncatewords:75 }}
       </h3>
+      <p>{{ post.content | strip_html | markdownify | truncatewords:75 }}</p>
     </li>
   {% endfor %}
 </ul>
