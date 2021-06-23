@@ -1,9 +1,11 @@
 ---
 layout: post
 title: The Many Faces of String Theory (Part IV)
-categories: blog
+categories: Physics
 excerpt_separator:  <!--more-->
 ---
+
+<img src="/assets/images/StringCoverPhoto.jpg" style="width:100%" />
 
 ### String Dualities
 
