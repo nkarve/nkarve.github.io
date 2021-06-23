@@ -5,7 +5,7 @@ layout: page
 {% unless page.content == '' %}
   {{ content }}
 {% endunless %}
-<hr size="2">
+<hr size="3">
 <ul class="posts-list">
   {% assign category = page.category | default: page.title %}
   {% for post in site.categories[category] %}
@@ -17,7 +17,7 @@ layout: page
         </a>
       </h3>
       <p>{{ post.content | strip_html | markdownify | truncatewords:75 }}</p>
-      <hr size="2">
+      <hr size="3">
     </li>
   {% endfor %}
 </ul>
