@@ -1,9 +1,11 @@
 ---
 layout: post
 title: The Many Faces of String Theory (Part III)
-categories: blog
+categories: Physics
 excerpt_separator:  <!--more-->
 ---
+
+<img src="/assets/images/StringCoverPhoto.jpg" style="width:100%" />
 
 In the previous post, we looked at the construction of *superstring theory*, but to our surprise, found two slightly different methods of constructing it! Now we will explore what the difference between the two is, and whether they are consistent. Be prepared for a couple of surprises along the way.
 
