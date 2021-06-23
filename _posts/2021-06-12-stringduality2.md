@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Many Faces of String Theory (Part II)
-categories: blog
+categories: Physics
 excerpt_separator:  <!--more-->
 ---
 
