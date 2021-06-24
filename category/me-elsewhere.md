@@ -7,7 +7,7 @@ My main presence on the Internet is currently through the [Stack Exchange](https
 
 - *Anomalies, Symmetries and the Ward Identity*: https://physics.stackexchange.com/a/629890/231159
 - Strings as a UV regulator: https://physics.stackexchange.com/a/638676/231159
-- WZW Model on $\mathrm{SL}(2,\mathbb R}$: https://physics.stackexchange.com/a/645893/231159
+- WZW Model on $\mathrm{SL}(2,\mathbb R)$: https://physics.stackexchange.com/a/645893/231159
 - Features of dynamical D-branes: https://physics.stackexchange.com/a/631660/231159
 
 <a href="https://stackexchange.com/users/14629989"><img src="https://stackexchange.com/users/flair/14629989.png" width="208" height="58" alt="profile for Nihar Karve on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="Profile for Nihar Karve on Stack Exchange, a network of free, community-driven Q&amp;A sites"></a>
