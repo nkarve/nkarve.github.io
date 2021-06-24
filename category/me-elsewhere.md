@@ -5,10 +5,10 @@ title: Me Elsewhere
 
 My main presence on the Internet is currently through the [Stack Exchange](https://stackexchange.com/) group of sites, predominantly the [Physics Stack Exchange](https://physics.stackexchange.com/). It's the greatest physics Q&A site on the internet, with contributions from enthusiasts, undergrad, grad and PhD students, and working professionals in the field. I find it a fantastic source of physics knowledge, and I also do my bit to answer questions, predominantly in quantum field theory, string theory and some general relativity. They have a unique "reputation" system (read: internet points), and I pride myself in that I am among the top 300 users overall. Here are some of my answers:
 
-- *Anomalies, Symmetries and the Ward Identity*: https://physics.stackexchange.com/a/629890/231159
-- Strings as a UV regulator: https://physics.stackexchange.com/a/638676/231159
-- WZW Model on $\mathrm{SL}(2,\mathbb R)$: https://physics.stackexchange.com/a/645893/231159
-- Features of dynamical D-branes: https://physics.stackexchange.com/a/631660/231159
+- [*Anomalies, Symmetries and the Ward Identity*](https://physics.stackexchange.com/a/629890/231159)
+- [Strings as a UV regulator](https://physics.stackexchange.com/a/638676/231159)
+- [WZW Model on $\mathrm{SL}(2,\mathbb R)$](https://physics.stackexchange.com/a/645893/231159)
+- [Features of dynamical D-branes](https://physics.stackexchange.com/a/631660/231159)
 
 <a href="https://stackexchange.com/users/14629989"><img src="https://stackexchange.com/users/flair/14629989.png" width="208" height="58" alt="profile for Nihar Karve on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="Profile for Nihar Karve on Stack Exchange, a network of free, community-driven Q&amp;A sites"></a>
 
