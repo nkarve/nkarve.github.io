@@ -1,0 +1,25 @@
+---
+layout: category
+title: At the Confluence of 
+categories: week
+excerpt_separator:  <!--more-->
+---
+
+I've found myself exploring some really intriguing and novel (at least to me) topics recently. In particular, an underlying theme of many of these is that they are topics at the crossroads of advanced field theory and elements from other areas of physics:
+
+- The instanton fluid model
+- The thermodynamics and bulk propagation in the chiral condensate
+- The XY model and the Kosterlitz-Thouless transition - it's a statistical model which exhibits duality with magnetic fields. It also provides a beautiful example of topological defects, spin waves and a non-trivial phase transition, with vortex-antivortex unbinding.
+- The Skyrme model of baryons. I've always loved chiral perturbation theory, i.e. the pion model, but I only recently learned about how baryons can be described as solitons, or topological twists of the pion field. Simply fantastic. I explored non-linear sigma models in more detail, symmetry breaking, ABJ and 't Hooft anomalies, and skyrmions even link with many-body nuclear systems.
+- Lattice gauge theory. One day I'd love to implement a reduced-dimension toy model. It provides insight on glueballs, flux tubes, the deconfinement phase of QCD and what goes on in condensed matter theory
+- The Ryu-Takayanagi formula and Page curves for black hole evaporation
+- Asymptotically conserved surface charges, some more AdS3/CFT2, and extremal BTZ black holes
+- Type II String compactifications - I am attending a few lectures in the Strings conference after all! 
+- Galois theory, just for fun!
+
+Some stuff which I would like to get started with is:
+- The SYK model, since it provides a solvable example of AdS/CFT
+- JT gravity and matrix models
+- Group cohomology in 't Hooft anomalies
+- The D1/D5 system and the near-horizon geometry of extremal black holes
+- K3 surfaces
