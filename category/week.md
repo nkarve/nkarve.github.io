@@ -1,6 +1,6 @@
 ---
 layout: category
-title: week
+title: Learning Journey
 ---
 
-Weekly and monthly summaries of interesting finds/what I'm working on
+Weekly and monthly summaries of interesting finds and what I'm working on
