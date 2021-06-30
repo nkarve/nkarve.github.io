@@ -1,6 +1,6 @@
 ---
 layout: category
-category-name: Learning Journey 
+category-name: learning-journey 
 title: Learning Journey
 ---
 
