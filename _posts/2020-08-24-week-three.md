@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Good Stuff (24/8/20 - 30/8/20)
-categories: Learning Journey
+categories: learning-journey
 excerpt_separator:  <!--more-->
 ---
 
