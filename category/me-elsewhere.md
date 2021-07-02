@@ -14,9 +14,13 @@ My main presence on the Internet is currently through the [Stack Exchange](https
 
 <a href="https://stackexchange.com/users/14629989"><img src="https://stackexchange.com/users/flair/14629989.png" width="208" height="58" alt="profile for Nihar Karve on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="Profile for Nihar Karve on Stack Exchange, a network of free, community-driven Q&amp;A sites"></a>
 
+<hr>
+
 ## Github
 
 I have uploaded a few projects on GitHub (including this website!), at https://github.com/nkarve. I'm probably most proud of my state-of-the-art [move generator](https://github.com/nkarve/surge) for chess engines - this was something I spent several months on, shuttling the code between Java, Rust and C before settling on its current incarnation in C++. Some of my other projects include a physics engine and a from-scratch Python [machine learning library](https://github.com/nkarve/twistml): incredibly fast, compact and readable. It boasts a 3 line convolutional forward pass, and I go into depth about the formulation of this algorithm in my very first blog post [here](https://nkarve.github.io/blog/2020/07/07/conv.html). There's quite a few more projects that I plan to add soon (after touching up the readability and structure), including some Game of Life renditions, visualisations of quantum tunnelling and some ab initio quantum chemistry helium simulations. Oh - also be sure to check out the various apps that I developed in Flutter + MySQL + Firebase.
+
+<hr>
 
 ## Project Euler
 
