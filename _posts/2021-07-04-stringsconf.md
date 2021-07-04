@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Strings Conference 2021
